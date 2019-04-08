@@ -18,10 +18,10 @@ void dump_to_stdout(const char* pFilename)
 	}
 }
 
-
 int main() {
 
-	TiXmlDocument doc( "d:/Eclipse_2018_C/eclipse/XML_Parser/src/GarageDiagnosticsSwc.arxml" );
+	// Please enter your xml file path here
+	TiXmlDocument doc( "......." );
 	doc.LoadFile();
 
 	TiXmlElement *l_pRootElement = doc.RootElement();
